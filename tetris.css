@@ -1,0 +1,92 @@
+.div-2 {
+    width: max-content;
+}
+
+.div-3 {
+    position: relative;
+    float: left;
+    margin-right: 16px;
+    width: fit-content;
+}
+
+.div-4 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    visibility: hidden;
+}
+
+.div-4 div {
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+canvas {
+    border: solid dimgray;
+    border-radius: 8px;
+}
+
+button {
+    color: white;
+    border: solid black;
+    border-radius: 16px;
+    background: green;
+}
+
+button:hover {
+    filter: brightness(120%);
+}
+
+button:active {
+    filter: brightness(80%);
+}
+
+.button-2 {
+    position: absolute;
+    left: 50%;
+    top: 41%;
+    transform: translate(-50%, 0);
+    font-size: 32px;
+    border: 6px solid gray;
+    width: 150;
+    height: 60;
+}
+
+.button-3 {
+    float: left;
+    margin-top: 2.5px;
+    font-size: 24px;
+    padding-top: 0;
+    padding-bottom: 3px;
+    width: 60;
+    height: 60;
+}
+
+.div-4 div button {
+    font-size: 16px;
+    border-radius: 8px;
+    background: dimgray;
+    width: 30;
+    height: 30;
+}
+
+.button-4 {
+    margin-top: 5px;
+}
+
+.button-5 {
+    transform: translate(0, -5.5px);
+    line-height: 0.3;
+    vertical-align: text-top;
+}
+
+img {
+    visibility: hidden;
+}
+
+.div-2 img {
+    visibility: visible;
+    border: solid black;
+    border-radius: 16px;
+}

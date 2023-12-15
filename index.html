@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Tetris</title>
+        <link rel="stylesheet" href="tetris.css">
+    </head>
+    <body onload="replay()">
+        <div class="div-2">
+            <div class="div-3">
+                <canvas width="300" height="600"></canvas>
+                <button class="button-2" onclick="resume()">&#11208;</button>
+                <br>
+                <br>
+                <div class="div-4 div-2">
+                    <button class="button-3" onclick="pause()">&#9208;</button>
+                    <div>
+                        <button onclick="moveLeft()">&#129092;</button>
+                        <button onclick="softDrop()">&#129095;</button>
+                        <button onclick="moveRight()">&#129094;</button>
+                        <br>
+                        <button class="button-4" onclick="rotateLeft()">&#8630;</button>
+                        <button class="button-5" onclick="hardDrop()">&#9207;<br>&#9207;</button>
+                        <button class="button-4" onclick="rotateRight()">&#8631;</button>
+                    </div>
+                    <button class="button-3" onclick="replay()">&#11118;</button>
+                </div>
+            </div>
+            <img alt="Control Options" src="control options.png">
+        </div>
+        <img alt="Tetris" src="tetris.png" width="120" height="83">
+        <img alt="Background" src="background.png" width="138" height="63">
+        <audio loop>
+            <source src="tetris theme.mp3">
+            Tetris Theme
+        </audio>
+        <!-- main -->
+        <script src="tetris.js"></script>
+        <!-- control options -->
+        <script src="tetris 2.js"></script>
+        <!-- dom events -->
+        <script src="tetris 3.js"></script>
+    </body>
+</html>
